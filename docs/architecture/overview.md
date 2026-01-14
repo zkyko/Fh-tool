@@ -31,17 +31,12 @@ The main process contains:
 
 ### Storage
 
-Axis uses two storage mechanisms:
+Axis uses **local application storage** to persist:
 
-1. **SQLite Database** (`better-sqlite3`)
-   - Local repository paths
-   - Correlation data
-   - Triage metadata
-   - Workflow logs
-
-2. **Electron Store** (OS-backed encryption)
-   - Integration credentials (BrowserStack, Jira, Azure DevOps)
-   - Application settings
+- Repository/workspace metadata
+- Correlation links (test result ↔ evidence ↔ defect)
+- Triage metadata and workflow notes
+- Integration configuration and credentials (stored securely)
 
 ## Services Pattern
 
@@ -123,6 +118,6 @@ src/
 2. **Lazy initialization** - Services are initialized when needed
 3. **Type-safe IPC** - TypeScript ensures IPC contract correctness
 4. **Event-driven updates** - Real-time updates via IPC events
-5. **SQLite for structured data** - Simple, reliable local database
-6. **Electron Store for credentials** - OS-backed secure storage
+5. **Local persistence** - App state and workflow metadata survive restarts
+6. **Secure credential storage** - Credentials are stored securely (not in the renderer)
 
