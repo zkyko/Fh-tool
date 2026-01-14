@@ -33,6 +33,7 @@ module.exports = {
       type: 'category',
       label: 'Workflows',
       items: [
+        'workflows/e2e-flow',
         'workflows/jira-bug-creation',
       ],
     },
@@ -49,6 +50,7 @@ module.exports = {
       label: 'Architecture',
       items: [
         'architecture/overview',
+        'architecture/integrations-diagram',
         'architecture/ipc',
       ],
     },

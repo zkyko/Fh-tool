@@ -122,5 +122,5 @@ Once configured, you can:
 - **Manage Repositories**: Go to Repo Companion to clone and manage repositories
 - **Create Jira Bugs**: Use the bug creation workflow from test failures
 
-See the [User Guide](../user-guide/) section for detailed workflows.
+See the [User Guide](../user-guide/dashboard.md) section for detailed workflows.
 

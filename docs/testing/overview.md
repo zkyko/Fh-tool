@@ -43,11 +43,10 @@ This testing section includes:
 
 - **Test Execution Checklist**: See [Test Cases](./test-cases.md) for the complete checklist
 - **Issue Reporting**: See test cases for issue reporting format
-- **Test Data**: See [Test Data Requirements](./test-data-requirements.md)
 
 ## Related Topics
 
-- [User Guide](../user-guide/) - How to use features
-- [Workflows](../workflows/) - Workflow documentation
+- [User Guide](../user-guide/dashboard.md) - How to use features
+- [Workflows](../workflows/jira-bug-creation.md) - Workflow documentation
 - [Troubleshooting](../troubleshooting/common-errors.md) - Common issues
 

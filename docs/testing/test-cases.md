@@ -113,7 +113,7 @@ When you find an issue, document it using this format:
 
 For complete test case details, see:
 - **[E2E Workflows](./e2e-workflows.md)** - End-to-end workflow testing
-- **[User Guide](../user-guide/)** - Feature documentation for reference
+- **[User Guide](../user-guide/dashboard.md)** - Feature documentation for reference
 - **[Troubleshooting](../troubleshooting/common-errors.md)** - Common issues and solutions
 
 ## Notes

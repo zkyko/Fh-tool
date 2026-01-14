@@ -98,8 +98,8 @@ See [Repository Management](../user-guide/repository-management.md) for detailed
 
 Now that you're set up, explore:
 
-- **[User Guide](../user-guide/)** - Detailed workflows for all features
-- **[Workflows](../workflows/)** - Specific workflow guides
+- **[User Guide](../user-guide/dashboard.md)** - Detailed workflows for all features
+- **[Workflows](../workflows/jira-bug-creation.md)** - Specific workflow guides
 - **[Architecture](../architecture/overview.md)** - Understand how Axis works
 - **[Troubleshooting](../troubleshooting/common-errors.md)** - Common issues and solutions
 
@@ -107,5 +107,5 @@ Now that you're set up, explore:
 
 - Check the [Troubleshooting](../troubleshooting/common-errors.md) section
 - Review [Architecture](../architecture/overview.md) for system understanding
-- See [Workflows](../workflows/) for step-by-step guides
+- See [Workflows](../workflows/jira-bug-creation.md) for step-by-step guides
 

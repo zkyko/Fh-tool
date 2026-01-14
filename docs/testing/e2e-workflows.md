@@ -204,6 +204,5 @@ Test workflows that span multiple integrations.
 ## Related Topics
 
 - [Test Cases](./test-cases.md) - Detailed individual test cases
-- [Integration Testing](./integration-testing.md) - API validation
-- [User Guide](../user-guide/) - Feature documentation
+- [User Guide](../user-guide/dashboard.md) - Feature documentation
 
