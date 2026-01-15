@@ -7,26 +7,20 @@ const darkCodeTheme = themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Axis Documentation',
+  title: 'QA Hub Documentation',
   tagline: 'Unified test execution, failure analysis, and defect tracking',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://zkyko.github.io',
+  url: 'https://your-docs-site.com',
   // Set the /<baseUrl>/ pathname under which your site is served
-  baseUrl: '/Fh-tool/',
+  baseUrl: '/',
 
   organizationName: 'fourhands',
   projectName: 'axis-docs',
 
   onBrokenLinks: 'warn',
-  
-  markdown: {
-    mermaid: true,
-    hooks: {
-      onBrokenMarkdownLinks: 'warn',
-    },
-  },
+  onBrokenMarkdownLinks: 'warn',
 
   i18n: {
     defaultLocale: 'en',
@@ -50,15 +44,13 @@ const config = {
     ],
   ],
 
-  themes: ['@docusaurus/theme-mermaid'],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Axis',
+        title: 'QA Hub',
         logo: {
-          alt: 'Axis Logo',
+          alt: 'QA Hub Logo',
           src: 'img/logo.svg',
         },
         items: [],

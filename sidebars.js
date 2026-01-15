@@ -9,49 +9,17 @@ module.exports = {
     'intro',
     {
       type: 'category',
-      label: 'Getting Started',
+      label: 'Architecture',
       items: [
-        'getting-started/installation',
-        'getting-started/configuration',
-        'getting-started/quick-start',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'User Guide',
-      items: [
-        'user-guide/dashboard',
-        'user-guide/browserstack-automate',
-        'user-guide/test-management',
-        'user-guide/jira-integration',
-        'user-guide/correlation-view',
-        'user-guide/repository-management',
-        'user-guide/test-script-viewer',
+        'architecture/overview',
+        'architecture/ipc',
       ],
     },
     {
       type: 'category',
       label: 'Workflows',
       items: [
-        'workflows/e2e-flow',
         'workflows/jira-bug-creation',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Testing',
-      items: [
-        'testing/overview',
-        'testing/e2e-workflows',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Architecture',
-      items: [
-        'architecture/overview',
-        'architecture/integrations-diagram',
-        'architecture/ipc',
       ],
     },
     {
